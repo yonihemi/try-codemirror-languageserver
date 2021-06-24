@@ -1,0 +1,22 @@
+{
+  "name": "try-codemirror-languageserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "editor.js",
+  "scripts": {
+    "build": "node_modules/rollup/dist/bin/rollup -c"
+  },
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "@codemirror/basic-setup": "^0.18.2",
+    "@codemirror/lang-cpp": "^0.18.0",
+    "codemirror-languageserver": "^1.4.3"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^19.0.0",
+    "@rollup/plugin-node-resolve": "^13.0.0",
+    "rollup": "^2.52.2",
+    "rollup-plugin-node-polyfills": "^0.2.1"
+  }
+}
